@@ -1,0 +1,19 @@
+{
+  // 保存時に eslint によるリントを実行
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // デフォルトのフォーマッターに prettier を指定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時に prettier によって整形
+  "editor.formatOnSave": true,
+  // タブにはスペースを使用
+  "editor.insertSpaces": true,
+  // 改行コードはを LF に設定
+  "files.eol": "\n",
+  // ファイル末尾には自動的に空行を挿入
+  "files.insertFinalNewline": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  }
+}
